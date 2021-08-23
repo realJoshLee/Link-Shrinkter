@@ -1,0 +1,193 @@
+html, body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #1c2228;
+  color: #fff;
+  padding: 0;
+  margin: 0;
+}
+
+.nav {
+  background: #11181d;
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+table {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+}
+
+table td, table th {
+  padding: 8px;
+}
+
+th {
+  background: #717677;
+  color: #fff;
+}
+
+th,td {
+  border: 3px solid #1c2228;
+}
+
+td {
+  width: 30px;
+}
+
+.pages-style {
+  padding: 50px;
+}
+
+.nav-btn {
+  padding-left: 20px;
+  padding-right: 20px;
+  cursor: pointer;
+}
+
+#down-devices {
+  background: #303946;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.center {
+  text-align: center;
+  width: 50px;
+}
+
+.nickname{
+  width: 250px;
+}
+
+.showing {
+  width: 150px;
+}
+
+td.up, td.down {
+  color: #1c2228;
+  font-size: 12px;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+td.down {
+  color: #fff;
+}
+
+td.up {
+  background: #61e6a5;
+}
+
+td.down {
+  background: #bc1a17;
+}
+
+/*.rotate {
+  transform: rotate(-90deg);
+  -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  -o-transform: rotate(-90deg);
+  height: 50px;
+  width: 30px !important;
+}*/
+
+div.down-alert-style {
+  width: 100%;
+  background: #bc1a17;
+
+  padding-top: 1px;
+  padding-bottom: 1px;
+
+  border-radius: 10px;
+
+  color: #fff;
+  text-align: center;
+  font-weight: bold;
+}
+
+.up-style {
+  width: 100%;
+  background: #61e6a5;
+
+  padding-top: 1px;
+  padding-bottom: 1px;
+
+  border-radius: 10px;
+
+  color: #111;
+  text-align: center;
+  font-weight: bold;
+}
+
+.form-control {
+  width: 100%;
+
+  margin: 5px;
+  padding: 5px;
+
+  color: #fff;
+  font-size: 16px;
+  
+  background: none;
+  
+  outline: none;
+  border: 1px solid #fff;
+  border-radius: 5px;
+}
+
+.form-control-submit {
+  color: #fff;
+  font-size: 16px;
+
+  background: rgb(17, 24, 29);
+
+  border: rgb(17, 24, 29);
+  border-radius: 5px;
+
+  margin: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+
+  cursor: pointer;
+}
+
+.float-right {
+  float: right;
+}
+
+div.sec {
+  background: #11181d;
+
+  border-radius: 10px;
+
+  padding: 4px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 10px; 
+
+  -webkit-box-shadow: 0px 0px 5px 0px rgba(17,24,29,1);
+  -moz-box-shadow: 0px 0px 5px 0px rgba(17,24,29,1);
+  box-shadow: 0px 0px 5px 0px rgba(17,24,29,1);
+
+}
+
+div.sec a {
+  color: red;
+  text-decoration: none;
+}
+
+div.sec span.short-cont {
+  font-weight: bold;
+}
+
+.toggle-sec {
+  display: none;
+}
+
+.CloseDrop {
+  display: none;
+}
